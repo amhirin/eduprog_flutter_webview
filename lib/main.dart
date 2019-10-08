@@ -8,14 +8,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Eduprog Flutter Webview Test',
+      title: 'Eduprog Flutter Webview',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: new WebviewScaffold(
         url: "https://www.eduprog.net",
         appBar: new AppBar(
-          title: new Text("Eduprog Webview"),
+          title: new Text("Eduprog webview"),
         ),
       ),
     );
